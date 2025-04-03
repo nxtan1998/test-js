@@ -76,30 +76,30 @@ function on()
 one()
 }
 
-        $(document).ready(function() {
-            $('#k').hide();
-            $('h1').click(function() {
-                $('.active').removeClass('active');
-                $('#k').slideUp('fast');
-                if($(this).next('#k').is(':hidden') == true) {
-                $(this).addClass('active');
-                $(this).next('#k').slideDown('fast');
+jQuery(document).ready(function() {
+	jQuery('#k').hide();
+	jQuery('h1').click(function() {
+		jQuery('.active').removeClass('active');
+		jQuery('#k').slideUp('fast');
+                if(jQuery(this).next('#k').is(':hidden') == true) {
+					jQuery(this).addClass('active');
+					jQuery(this).next('#k').slideDown('fast');
                 }
             });
         });
 					function Yeu()
 					{
-					$("#divResult").fadeOut(0);
-					$("#divResult").html("</br><h2>haha đừng có chối nữa nhé ! <img src='img/3.gif'</img></h2>");
-					$("#divResult").fadeIn(2000,function()
+						jQuery("#divResult").fadeOut(0);
+						jQuery("#divResult").html("</br><h2>haha đừng có chối nữa nhé ! <img src='img/3.gif'</img></h2>");
+						jQuery("#divResult").fadeIn(2000,function()
 							{
-							$("#divResult2").fadeOut(0);
-							$("#divResult2").html("<p>Anh cũng Thích em mà<img src='img/2.gif'/></p></br>");
-							$("#divResult2").fadeIn(2000,function()
+								jQuery("#divResult2").fadeOut(0);
+								jQuery("#divResult2").html("<p>Anh cũng Thích em mà<img src='img/2.gif'/></p></br>");
+								jQuery("#divResult2").fadeIn(2000,function()
 									{
-									$("#divResult3").fadeOut(0);
-									$("#divResult3").html("<p>Nhớ cơm nước đầy đủ sau này a lo <img src='img/4.gif'/></p></br>");
-									$("#divResult3").fadeIn(2000);
+										jQuery("#divResult3").fadeOut(0);
+										jQuery("#divResult3").html("<p>Nhớ cơm nước đầy đủ sau này a lo <img src='img/4.gif'/></p></br>");
+										jQuery("#divResult3").fadeIn(2000);
 									}
 								);
 							}
